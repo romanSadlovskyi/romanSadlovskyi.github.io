@@ -66,10 +66,11 @@ menu{
     border-top:3px solid white ;
     position: sticky;
     top: 0px;
+    height: 43px;
 }
 
 menu > nav {
-    padding: 10px 0px 10px 630px;
+    padding: 10px 0px 10px 605px;
    
 }
 menu > nav > ul > li {
@@ -77,6 +78,9 @@ menu > nav > ul > li {
     border-right: 2px solid white;
     padding-right: 10px;
 
+}
+menu > nav > ul > li:hover{
+    font-size: 22px;
 }
 
 aside {
@@ -100,7 +104,8 @@ article {
 
 header > h2 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 57px;
+    padding-bottom: 10px;
 }
 
 section > p {
@@ -147,7 +152,7 @@ footer {
 
 #home {
     position: fixed;
-    top: 300px;
+    top: 320px;
     left: 0;
 }
 
