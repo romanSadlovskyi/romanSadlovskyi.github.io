@@ -1,0 +1,114 @@
+/*
+ul, li, a {
+    outline: 1px solid red;
+}
+*/
+li {
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    
+}
+
+a {
+    display: block;
+    text-align: center;
+    background: yellow;
+    border: 1px solid black;
+}
+
+ul {
+/*    width: 700px;*/
+    padding: 0;
+  
+}
+
+.arrow {
+    background-color: white;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    margin: 120px auto 0 auto;
+}
+
+.arrow::before {
+    content: "";
+    border-bottom: 100px solid white;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.wrapper {
+    background-color: dodgerblue;
+    width: 320px;
+    height: 320px;
+    border: 1px solid white;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font: 80px verdana;
+    font-weight: 900;
+    color: white;
+    margin-top: 0;
+}
+
+#tt {
+
+    margin-top: 20px;
+    height: 30px;
+}
+
+ div::before {
+    content:"jdshfkdshfk"
+}
+
+
+
+h2 {
+    color: red;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transform: scale(1.5, 1);
+    vertical-align: middle;
+}
+#hh {
+    height: 200px;
+    display: inline-block;
+    transform: translate(200px, 50px);
+    z-index: 200;
+}
+
+#ff {
+    height: 1px;
+    background: blue;
+}
+
+
+title {
+    background: url(12/task12/images/arrow.png);
+}
+
+
+.eng {
+    display: inline-block;
+    color: black;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
