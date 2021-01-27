@@ -1,0 +1,147 @@
+@media screen and (max-width: 1257px) {
+    .container {
+        width: 768px;
+    }
+
+    .leftSlide, .rightSlide{
+        width: 384px;
+        height: 354px;
+    }
+
+    .leftSlide {
+        background: url(../images/philip-martin-new.png);
+    }
+
+    .closeMenu, .burger-icon {
+        top: -42px;
+        left: 23px;
+    }
+    ul {
+       
+        width: 280px;
+        height: 290px;
+       
+        padding: 22px 15px 18px 15px;
+        left: 23px;
+        top: -14px;
+        
+    }
+
+    .articleSlide h1 {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 20px;
+    }
+
+    .articleSlide {
+        padding: 65px 18px 0 22px;
+    }
+    .articleSlide p, .articleSlide time {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .articleSlide p {
+        margin-top: 20px;
+    }
+    .lifeStyle {
+        display: none;
+    }
+
+    .readMore {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 31px;
+    }
+
+    .leftBlock, .rightBlock, .featured img {
+        width: 345px;
+    }
+
+    .featured h2 {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 16px;
+    }
+    .featured p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 21px;
+    }
+
+    .block3 img, .block3 > * {
+        width: 220px;
+    }
+
+    .block3 h3, .interviews h3, .news h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .block3 .data {
+        margin: 21px 0 15px 0;
+    }
+    .seeAll {
+        margin-top: 48px;
+    }
+    .slider2 > div {
+        width: 359px;
+        height: 275px;
+    }
+    .leftSlider2 {
+        background: url(../images/newCoffee.png) no-repeat;
+    }
+
+    .rightSlider2 p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 89px;
+    }
+
+    .subNow {
+        margin: 27px auto;
+    }
+
+    .interviews img, .interviews > *, .news img, .news > * {
+        width: 220px;
+    }
+    .interV .seeAll {
+        margin-top: 53px;
+    }
+    footer {
+        margin-top: 70px;
+    }
+    header {
+        height: 65px;
+    }
+    header > a {
+        display: block;
+        height: 21px;
+        width: 105px;
+        background: url(../images/newLogo.png) no-repeat;
+    }
+    .block3 {
+        margin-top: 32px;
+    }
+    .block3 .data {
+        margin: 13px 0 17px 0;
+    }
+    .interviews {
+        margin-top: 112px;
+    }
+
+    .interviews .data {
+        margin: 7px 0 14px 0;
+    }
+    .news {
+        margin-top: 85px;
+    }
+    .newsLast .seeAll {
+        margin-top: 44px;
+    }
+    .news1::before {
+        top:-53px;
+    }
+    .news .data {
+        margin: 6px 0 16px 0;
+    }
+}

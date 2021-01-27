@@ -1,0 +1,192 @@
+@media screen and (max-width: 1024px) {
+    div.container {
+        max-width: 715px;
+    }
+
+    body > header {
+        min-height: 800px;
+    }
+
+    section.menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    nav ul {
+        min-height: 45px;
+    }
+
+    nav ul {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .container > article h1 {
+        font-size: 48px;
+    }
+
+    .container > article h2 {
+        font-size: 24px;
+    }
+
+    .container > article p {
+        font-size: 16px;
+    }
+
+    .hiddenP {
+        display: none;
+    }
+
+    .container > article {
+        width: 280px;
+        margin-left: 25px;
+    }
+
+    .container > article::after {
+        right: -395px;
+    }
+
+    .container > article::before {
+        right: -250px;
+    }
+
+    article > .circle {
+        right: -325px;
+    }
+
+    header section.overlay {
+        margin-top: 80px;
+    }
+
+    .overlay > div.container::before {
+        left: -18px;
+    }
+
+    .overlay > div.container::after {
+        right: -18px;
+    }
+
+    .container > .dotted {
+        margin: 35px 0 0 520px;
+    }
+
+    .container > .about {
+        width: 155px;
+        margin: 80px 90px 0 0;
+    }
+
+    .container > .about > h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .container .about > a {
+        margin: 10px 6px 0 0;
+    }
+
+    .container > .comment h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .container > .comment h3 > span {
+        display: block;
+    }
+
+    .container > .comment {
+        width: 315px;
+        padding: 30px 27px 40px 40px;
+    }
+
+    .container > .updates {
+        width: 330px;
+        margin-left: 50px;
+    }
+
+    div.list + a {
+        margin-left: 235px;
+    }
+
+    div.list + a::after {
+        content: 'BLOG POSTS';
+        font-size: 18px;
+        color: #454545;
+    }
+
+    .comment > .dotted-2 {
+        left: 110px;
+    }
+
+    div.container > img {
+        margin: 25px 0 0 0;
+    }
+
+    ul.brands {
+        margin: 25px 0 0 0;
+    }
+
+    ul.brands li {
+        margin-right: 55px;
+    }
+
+    .first > h3::after,
+    .second > h3::after {
+        content: 'NEWS CATEGORIES';
+        font-size: 24px;
+        color: #454545;
+    }
+
+    div.info div.third {
+        margin-right: 0;
+    }
+
+    div.third > h3 {
+        font-size: 24px;
+    }
+
+    .info > div.container > * {
+        width: 210px;
+        margin: 100px 40px 100px 0;
+    }
+
+    .first {
+        -webkit-transform: translateY(-13px);
+            -ms-transform: translateY(-13px);
+                transform: translateY(-13px);
+    }
+
+    .third {
+        -webkit-transform: translateY(5px);
+            -ms-transform: translateY(5px);
+                transform: translateY(5px);
+    }
+
+    .blur > div.container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    ul.footMenu {
+        margin-right: 0;
+        min-height: 30px;
+    }
+
+    div.blur p {
+        margin-top: 40px;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    }
+
+    .info + footer,
+    footer > .blur {
+        height: 200px;
+    }
+}
+
+
+

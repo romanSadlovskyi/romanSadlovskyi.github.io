@@ -1,0 +1,149 @@
+@media screen and (max-width: 785px) {
+    .container {
+        width: 320px;
+    }
+    .slider {
+        flex-direction: column;
+    }
+    .leftSlide {
+        width: 320px;
+        height: 294px;
+        background: url(../images/philip-martin-short.png) no-repeat;
+    }
+
+    .closeMenu, .burger-icon {
+        left: 20px;
+    }
+    ul {
+        left: 20px;
+    }
+    .rightSlide {
+        width: 320px;
+        height: 246px;
+    }
+    .articleSlide {
+        padding: 9px 13px 0 12px;
+    }
+    .readMore {
+        margin-top: 20px;
+    }
+    .featured {
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftBlock, .rightBlock, .featured img {
+        width: 295px;
+    }
+    .leftBlock {
+        margin: 87px 0 0 0;
+    }
+    .leftBlock::before {
+        top: -45px;
+    }
+    .data {
+        margin-top: 9px;
+    }
+    .rightBlock {
+        margin: 27px 0 0 0;
+    }
+    .rightBlock .data {
+        margin-top: 6px;
+    }
+    .block3 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 23px;
+    }
+    .block3 img, .block3 > * {
+        width: 295px;
+    }
+    .secondBlock {
+        margin: 20px 0 0 0;
+    }
+    .secondBlock img, .thirdBlock img {
+        height: 215px;
+    }
+    .block3 .firstBlock .data {
+        margin: 10px 0 13px 0;
+    }
+    .block3 .secondBlock .data {
+        margin: 1px 0 13px 0;
+    }
+    .block3 .thirdBlock .data {
+        margin: 0 0 13px 0;
+    }
+    .thirdBlock {
+        margin: 21px 0 0 0;
+    }
+    .seeAll {
+        margin-top: 30px;
+    }
+
+
+    .slider2 {
+        flex-direction: column;
+        margin-top: 44px;
+    }
+    .slider2 > div {
+        width: 320px;
+    }
+    .slider2 .leftSlider2 {
+        height: 245px;
+        background: url(../images/mobileCoffee.png) no-repeat;
+    }
+
+    .slider2 .rightSlider2 {
+        height: 175px;
+    }
+    .rightSlider2 p {
+        margin-top: 40px;
+    }
+
+    .interviews {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 84px;
+    }
+    .interviews img, .interviews > *, .news img, .news > * {
+        width: 295px;
+    }
+
+    .inter2 img, .inter3 img, .news2 img, .news3 img {
+        height: 215px;
+    }
+
+    .inter2, .inter3, .news2, .news3 {
+        margin: 21px 0 0 0;
+    }
+    #umbrella {
+        display: block;
+    }
+
+    #oldUmbrella {
+        display: none;
+    }
+
+    .inter1::before {
+        top: -41px;
+    }
+    .inter1 .data {
+        margin: 15px 0 14px 0;
+    }
+    .inter2 .data, .inter3 .data, .news2 .data, .news3 .data {
+        margin: 0 0 12px 0;
+    }
+    .interV .seeAll, .newsLast .seeAll {
+        margin-top: 32px;
+    }
+
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news1::before {
+        top: -41px;
+    }
+    footer {
+        margin-top: 43px;
+    }
+}
