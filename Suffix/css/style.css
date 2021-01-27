@@ -1,0 +1,359 @@
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+header > a {
+    display: block;
+    height: 31px;
+    width: 158px;
+    background: url(../images/Group\ 13.png) no-repeat;
+}
+
+.slider {
+    display: flex;
+}
+
+.leftSlide{
+    width: 720px;
+    height: 570px;
+    background: url(../images/philip-martin-5aGUyCW_PJw-unsplash.png) center center;
+    position: relative;
+}
+
+.closeMenu {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background: url(../images/Line\ 4.png) no-repeat, url(../images/Line\ 5.png) no-repeat;
+    position: relative;
+    top: -70px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.burger-icon {
+    background: url(../images/BURGER.png) no-repeat;
+    display: block;
+    height: 19px;
+    width: 24px;
+    position: relative;
+    top: -70px;
+    left: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+ul {
+    position: absolute;
+    width: 344px;
+    height: 359px;
+    background: #fff;
+    padding: 52px 15px;
+    left: 51px;
+    top: -14px;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.1);
+}
+
+
+ul a {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    display: block;
+    padding: 5px 0 6px 66px;
+}
+
+ul a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.rightSlide {
+    width: 720px;
+    height: 570px;
+    background-color: #000;
+}
+
+.articleSlide time {
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 7px;
+    font-weight: 500;
+}
+
+.articleSlide a, h1, p {
+    color: #fff;
+}
+
+.lifeStyle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-left: 280px;
+}
+
+.articleSlide h1 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+
+.articleSlide p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 29px;
+}
+
+.readMore {
+    display: block;
+    width: 198px;
+    height: 55px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 55px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-top: 54px;
+}
+
+.articleSlide {
+    padding: 105px 110px 0 108px;
+}
+
+.featured {
+    display: flex;
+   justify-content: center;
+}
+
+.leftBlock {
+    width: 557px;
+    margin-right: 14px;
+    margin-top: 116px;
+    position: relative;
+}
+
+.leftBlock::before {
+    content: 'FEATURED';
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    font-weight: 500;
+    position: absolute;
+    top: -55px;
+    left: 0;
+}
+
+.rightBlock {
+    width: 557px;
+    margin-left: 14px;
+    margin-top: 116px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.data time {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.data a {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    margin-top: 1px;
+    color: #000;
+}
+
+.featured h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #1F1F1D;
+    margin-top: 32px;
+}
+
+.featured p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    margin-top: 17px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+
+.block3 h3, .interviews h3, .news h3 {
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1F1F1D;
+    font-weight: 500;
+}
+
+.secondBlock, .inter2, .news2 {
+    margin: 0 27px;
+}
+
+.block3 .data {
+    margin: 11px 0 22px 0;
+}
+
+.seeAll {
+    display: block;
+    margin: 0 auto;
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 42px;
+    margin-top: 63px;
+    font-weight: 500;
+}
+
+.slider2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+}
+
+.slider2 > div {
+    width: 571px;
+    height: 360px;
+}
+
+.leftSlider2 {
+    background: url(../images/photo-1520781359717-3eb98461c9fe.png) no-repeat;
+}
+
+.rightSlider2 {
+    background-color: #000;
+}
+
+.rightSlider2 p {
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.subNow {
+    display: block;
+    width: 198px;
+    height: 42px;
+    color: #fff;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+.interviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    position: relative;
+}
+.inter1 {
+    position: relative;
+}
+#umbrella {
+    display: none;
+}
+.inter1::before {
+    content: 'INTERVIEWS';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #1F1F1D;
+    position: absolute;
+    top:-58px;
+}
+
+.interviews .data {
+    margin: 2px 0 29px 0;
+}
+
+.interV .seeAll {
+    margin-top: 38px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.news1 {
+    position: relative;
+}
+
+.news1::before {
+    content: 'NEWS';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #1F1F1D;
+    position: absolute;
+    top:-56px;
+}
+
+.newsLast .seeAll {
+    margin-top: 31px;
+}
+
+.news .data {
+    margin: 14px 0 21px 0;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    height: 163px;
+    padding-top: 55px;
+    margin-top: 100px;
+}
+
+footer p {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 18px;
+}
+

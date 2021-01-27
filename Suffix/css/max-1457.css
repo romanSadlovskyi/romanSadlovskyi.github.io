@@ -1,0 +1,97 @@
+@media screen and (max-width:1457px) {
+    .container {
+        width: 1240px;
+    }
+
+    ul, .closeMenu {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+
+    
+    .lifeStyle {
+        margin-left: 186px;
+    }
+    
+    .articleSlide h1 {
+        margin-top: 33px;
+        margin-right: 10px;
+    }
+    
+    .articleSlide p {
+        margin-top: 23px;
+    }
+    
+    .readMore {
+        margin-top: 36px;
+    }
+    
+    .articleSlide {
+        padding: 125px 104px 0 104px;
+    }
+    .leftBlock, .rightBlock {
+        margin-top: 108px;
+    }
+    .leftBlock, .rightBlock, .featured img {
+        width: 455px;
+    }
+
+    .leftBlock::before {
+        top: -48px;
+    }
+    .block3 {
+        margin-top: 91px;
+    }
+
+    .block3 img, .block3 > * {
+        width: 295px;
+    }
+    
+    .seeAll {
+        margin-top: 58px;
+    }
+    
+    .slider2 {
+        margin-top: 60px;
+    }
+    
+    .slider2 > div {
+        width: 470px;
+    }
+    
+    .leftSlider2 {
+        background: url(../images/slider2.png);
+    }
+    .interviews {
+        margin-top: 118px;
+    }
+
+    .interviews img, .interviews > *, .news img, .news > * {
+        width: 295px;
+    }
+    
+    .interviews .data {
+        margin: 7px 0 22px 0;
+    }
+    
+    .interV .seeAll {
+        margin-top: 58px;
+    }
+
+    .news {
+        margin-top: 106px;
+    }
+    
+    .newsLast .seeAll {
+        margin-top: 60px;
+    }
+    .news1::before {
+        top:-45px;
+    }
+
+    footer {
+        margin-top: 89px;
+    }
+}
