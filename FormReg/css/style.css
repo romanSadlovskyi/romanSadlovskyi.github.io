@@ -1,0 +1,213 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form > * {
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+[placeholder] {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #DBDBDB;
+    padding-left: 10px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 0;
+    background: #fff;
+}
+
+[placeholder]:focus {
+    border: 2px solid #90BFED;
+    box-shadow: 0 0 3px 1px #90BFED;
+}
+
+[type="button"] {
+    height: 30px;
+    background: linear-gradient(#4DA2FC, #4DA2F9);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-active {
+    background: #006BEA;
+}
+
+.wrongData {
+    background: linear-gradient(#EE5652, #F05452);
+    padding: 0 5px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    border: 1px solid #C65956;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0;
+    display: inline-block;
+}
+
+.bdColor {
+    border-color: #76A183;
+}
+
+.bgClose {
+    background: url(../images/close.png) no-repeat 98% center, #fff;
+}
+
+.bgCheck {
+    background: url(../images/check.png) no-repeat 98% center, #fff;
+}
+
+.fieldWrapper {
+    position: relative;
+}
+
+.fwFirst::before, .fwLast::before, .fwEmail::before, .fwPassword::before {
+    content: '';
+    font-size: 10px;
+    color: #7575A1;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+}
+.fwFirst::before {
+    content: 'First name';
+}
+.fwLast::before {
+    content: 'Last name';
+}
+.fwEmail::before {
+    content: 'Email address';   
+}
+.fwPassword::before {
+    content: 'Password';
+}
+
+
+label {
+    position: relative;
+    cursor: pointer;
+}
+
+.checkSpan {
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+#checkbox {
+    opacity: 1;
+}
+
+#checkbox:focus + .checkSpan {
+    box-shadow: 0 0 3px 1px #90BFED;
+    border: 1px solid #56A3F0;
+}
+
+#checkbox:checked +.checkSpan {
+    background: url(../images/checkbox.png) no-repeat 2px 2px, #007AFF;
+}
+
+.popup {
+    width: 400px;
+    height: 325px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        top: 0;
+    }
+    to   {
+        top: 120px
+    }
+}
+
+.popupTop {
+    border-radius: 3px 3px 0 0;
+    height: 150px;
+    background: url(../images/logoCheck.png) no-repeat center center, #3BB8A0;
+}
+
+.popupBottom {
+    height: 175px;
+    background: #FDFDFD;
+    border-radius: 0 0 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupBottom h1 {
+    margin: 0;
+}
+
+.popupBottom p {
+    font-size: 14px;
+}
+
+a {
+    display: block;
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    background: url(../images/arrow-right.svg) no-repeat 115px, linear-gradient(#F2B10A, #F2B209);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+a:hover {
+    background: url(../images/arrow-right.svg) no-repeat 115px, #F1A736;
+}
+.popWrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hide {
+    display: none;
+}

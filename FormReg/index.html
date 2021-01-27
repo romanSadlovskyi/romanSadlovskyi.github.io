@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Please sign up</h1>
+        <form name="">
+            <div class="fieldWrapper">
+                <input type="text" class="field" placeholder="First name">
+                <span class="wrongData wrFirst">Please provide a valid First name.</span>
+            </div>
+            <div class="fieldWrapper">
+                <input type="text" class="field" placeholder="Last name">
+                <span class="wrongData wrLast">Please provide a valid Last name.</span>
+            </div>
+            <div class="fieldWrapper">
+                <input type="email" class="field" placeholder="Email address">
+                <span class="wrongData wrEmail">Please provide a valid Email address.</span>
+            </div>
+            <div class="fieldWrapper">
+                <input type="password" class="field" placeholder="Password">
+                <span class="wrongData wrPassword">Please provide a valid Password.</span>
+            </div>
+            <div>
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox"><span class="checkSpan"></span>
+                    <span>I agree with Privacy Policy.</span>
+                </label>
+            </div>
+            <input type="button" value="Sign Up" disabled>
+        </form>
+    </div>
+    <div class="popWrapper hide">
+        <div class="popup">
+            <div class="popupTop"></div>
+            <div class="popupBottom">
+                <h1>Great!</h1>
+                <p>Your account has been created successfully.</p>
+                <a href="#" class="start">Start Exploring</a>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
