@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="block">
+        <div class="date-today">22.02.2020</div>
+        <div class="time-today">
+            <div class="time1">21</div><span>:</span>
+            <div class="time2">00</div><span>:</span>
+            <div class="time3">57</div>
+        </div>
+    </div>
+    <div class="block">
+        <div class="stopwatch">
+            <div class="watch">
+                <div class="hoursW">00</div><span>:</span>
+                <div class="minutesW">00</div><span>:</span>
+                <div class="secondsW">00</div><span>:</span>
+                <div class="miliOne">0</div>
+                <div class="miliTwo">0</div>
+                <div class="miliThree">0</div>
+            </div>
+            <div class="buttons">
+                <input type="button" value="START" onclick="start()">
+                <input type="button" value="LOOP" onclick="loop()">
+                <input type="button" value="STOP" onclick="stop()">
+                <input type="button" value="RESET" onclick="reset()">
+            </div>
+        </div>
+        <div class="result"></div>
+    </div>
+    <div class="block">
+        <div class="minutes">
+            <div class="remains">25</div>
+            <div class="counter">
+                <p>MINUTES</p>
+                <input type="button" value="+" class="plus" onclick="plus()">
+                <input type="button" value="-" class="minus" onclick="minus()">
+            </div>
+        </div>
+        <div class="timer">
+            <div class="leave">
+                <div class="timerMinutes">00</div>
+                <div>:</div>
+                <div class="timerSeconds">00</div>
+            </div>
+            <div class="btn-2">
+                <input type="button" value="START" onclick="timerStart()">
+                <input type="button" value="STOP" onclick="timerStop()">
+                <input type="button" value="RESET" onclick="timerReset()">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

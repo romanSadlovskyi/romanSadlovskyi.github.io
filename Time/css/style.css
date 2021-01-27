@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'digital regular';
+    src: url(./fonts/digital\ regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #057195;
+    background-color: #000110;
+    text-align: center;
+    font-family: 'digital regular';
+}
+
+.block {
+    height: 30vh;
+    min-height: 200px;
+    background-color: #000314;
+    padding-top: 25px;
+}
+
+.block:first-child, .block:nth-child(2) {
+    margin-bottom: 5vh;
+    border-bottom: 1px solid #384554;
+}
+
+.block:nth-child(2) {
+    border-top: 1px solid #141F2F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+}
+
+.block:nth-child(3) {
+    border-top: 1px solid #3A4857;
+    display: flex;
+    justify-content: space-around;
+}
+
+.date-today {
+    font-size: 30px;
+}
+.time-today {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.time1, .time2, .time3 {
+    width: 120px;
+}
+
+.result {
+    width: 400px;
+    height: 250px;
+    box-shadow: inset  0 1px 3px 0 #131627;
+    border: 1px solid #131627;
+    border-radius: 5px;
+    font-size: 35px;
+    overflow-y: auto;
+    padding-top: 8px;
+}
+
+.stopwatch {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.watch {
+    font-size: 65px;
+    display: flex;
+}
+
+.watch > :nth-child(1), .watch > :nth-child(3), .watch > :nth-child(5)  {
+    width: 80px;
+}
+.watch > :nth-child(7), .watch > :nth-child(8), .watch > :nth-child(9) {
+    width: 40px;
+}
+
+[type="button"] {
+    color: #057195;
+    width: 85px;
+    height: 40px;
+    border: 1px solid #192131;
+    border-radius: 5px;
+    background-color: #000314;
+    font-family: 'digital regular';
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.leave, .remains {
+    font-size: 85px;
+}
+
+.leave {
+    display: flex;
+    justify-content: center;
+}
+
+.timerMinutes, .timerSeconds {
+    width: 100px;
+}
+
+.minutes, .timer {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.counter p {
+    font-size: 25px;
+}
+
+.plus, .minus {
+    width: 40px;
+}
+
+.btn-focus {
+    border: 3px solid #3C5884;
+}
