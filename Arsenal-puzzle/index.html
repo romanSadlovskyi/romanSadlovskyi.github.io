@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Puzzle</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="time">
+            <span class="minutes">01:</span><span class="seconds">00</span>
+            <div class="modal-window">
+                <div class="information"><span class="info">You still have time, you sure?</span><span class="minutes">01:</span><span class="seconds">00</span></div>
+                <div class="modal-buttons">
+                    <input type="button" value="Close" id="modal-close">
+                    <input type="button" value="Check" id="modal-check">
+                </div>
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <input type="button" value="Start game!" class="start">
+            <input type="button" value="Check result" class="check disabled-btn" disabled>
+            <input type="button" value="New game" class="newGame">
+        </div>
+        <div class="block-wrapper">
+            <div class="block left-block">
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+            </div>
+            <div class="block">
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+                <div class="drop-block"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-bg"></div>
+
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

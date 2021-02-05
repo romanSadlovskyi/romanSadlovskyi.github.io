@@ -1,0 +1,118 @@
+.container {
+    width: 900px;
+    margin: 80px auto 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.minutes, .seconds {
+    font-size: 70px;
+}
+
+.start, .check, .newGame {
+    background:#E84543;
+    color: #fff;
+    outline: none;
+    border: 1px solid #BE504F;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+.block-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-wrapper {
+    position: relative;
+}
+
+.block {
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E9E7E9;
+}
+
+.puzzle {
+    width: 100px;
+    height: 100px;
+    background: url(../images/Arsenal.png) no-repeat;
+}
+
+.drop-block {
+    width: 100px;
+    height: 100px;
+}
+
+.disabled-btn {
+    background: rgba(232, 69, 67, 0.7);
+    cursor: default;
+}
+
+.time {
+    position: relative;
+}
+.modal-window {
+    background-color: #fff;
+    width: 600px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    margin-left: -300px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    display: none;
+}
+
+.information {
+    height: 60px;
+    line-height: 60px;
+    border-top: 2px solid #E7E6E8;
+    border-bottom: 2px solid #E7E6E8;
+}
+.info, .info ~ .minutes, .info ~ .seconds {
+    font-size: 35px;
+}
+
+.modal-buttons {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-buttons > input {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#modal-close {
+    background-color: #E84543;
+}
+
+#modal-check {
+    background-color: #1D9343;
+}
+
+.modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+}
